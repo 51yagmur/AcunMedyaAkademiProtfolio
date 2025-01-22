@@ -1,0 +1,32 @@
+﻿@model AcunMedyaAkademiProtfolio.Models.Tbl_Feature
+@{
+    ViewBag.Title = "CreateFeature";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Feature Ekleme Sayfası</h2>
+<form method="post">
+    <br />
+    <label>İsim-Soyisim</label>
+    <input type="text" class="table table-bordered" name="FeatureNameSurname" />
+
+    <br />
+
+    <label>Açıklama</label>
+    <input type="text" class="table table-bordered" name="FeatureDescription" />
+    <br /> 
+    
+    <label>Proje Adı</label>
+    <input type="text" class="table table-bordered" name="FeatureProjectName" />
+    <br />
+
+
+    <label>Feature Resim Yolu</label>
+    <input type="text" class="table table-bordered" name="FeatureİmageUrl" />
+
+
+
+
+    <button class="btn btn-info">Özellikleri Kaydet</button>
+</form>
+

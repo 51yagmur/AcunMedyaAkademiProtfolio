@@ -1,0 +1,43 @@
+﻿@model AcunMedyaAkademiProtfolio.Models.Tbl_Feature
+@{
+    ViewBag.Title = "UpdateFeature";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Feature Güncelleme</h2>
+
+<form method="post">
+    <label>Feature Id</label>
+    <input type="text" class="table table-bordered"
+           value="@Model.FeatureId"
+           name="FeatureId" readonly />
+
+    <br />
+    <label>İsim-Soyisim</label>
+    <input type="text" class="table table-bordered"
+           value="@Model.FeatureNameSurname"
+           name="FeatureNameSurname" />
+    <br />
+
+    <label>  Feature Açıklama</label>
+    <input type="text" class="table table-bordered"
+           value="@Model.FeatureDescription"
+           name="FeatureDescription" />
+    <br />
+    <label>Feature Proje Adı</label>
+    <input type="text" class="table table-bordered"
+           value="@Model.FeatureProjectName"
+           name="FeatureProjectName" />
+    <br />
+
+    <label>Resim Yolu</label>
+    <input type="text" class="table table-bordered"
+           value="@Model.FeatureİmageUrl"
+           name="FeatureİmageUrl" />
+    <br />
+
+
+    <button class="btn btn-success">Categori Güncelleme</button>
+
+</form>
+

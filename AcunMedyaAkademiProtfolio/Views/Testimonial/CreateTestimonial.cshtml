@@ -1,0 +1,41 @@
+﻿@model AcunMedyaAkademiProtfolio.Models.Tbl_Testimonial
+@{
+    ViewBag.Title = "CreateTestimonial";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Referans Ekleme</h2>
+<form method="post">
+    <br />
+    <label>Referans Başlığı</label>
+    <input type="text" class="table table-bordered" name="TestimonialTitle" />
+
+    <br />
+
+    <label> Referans Açıklama</label>
+    <input type="text" class="table table-bordered" name="TestimonialDescription" />
+    <br />
+
+    <label>Referans Adı-Soyadı</label>
+    <input type="text" class="table table-bordered" name="TestimonialNameSurname" />
+    <br />
+
+
+    <label>Referans Resim Yolu</label>
+    <input type="text" class="table table-bordered" name="TestimonialİmageUrl" />
+    <br />
+
+
+    <label>Referans İş</label>
+    <input type="text" class="table table-bordered" name="Testimonialjob" />
+    <br />
+
+
+    <label>Referans Durumu</label>
+    <input type="text" class="table table-bordered" name="TestimonialStatus" />
+
+
+
+
+    <button class="btn btn-info">Refrans Kaydet</button>
+</form>

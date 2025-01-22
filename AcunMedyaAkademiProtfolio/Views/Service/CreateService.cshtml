@@ -1,0 +1,26 @@
+﻿@model AcunMedyaAkademiProtfolio.Models.Tbl_Service
+@{
+    ViewBag.Title = "CreateService";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Hizmet Ekleme Sayfası</h2>
+<form method="post">
+    <br />
+    <label>Hizmet Adı</label>
+    <input type="text" class="table table-bordered" name="ServiceTitle" />
+
+    <br />
+
+    <label> Hizmet Açıklaması</label>
+    <input type="text" class="table table-bordered" name="ServiceDescription" />
+    <br />
+
+    <label>Hizmet Resim Yolu</label>
+    <input type="text" class="table table-bordered" name="ServiceİmageUrl" />
+    <br />
+
+
+    <button class="btn btn-info"> Hizmeti Kaydet</button>
+</form>
+

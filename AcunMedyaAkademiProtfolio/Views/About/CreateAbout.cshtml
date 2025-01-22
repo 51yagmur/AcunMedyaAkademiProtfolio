@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "CreateAbout";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>İçerik Ekleme Sayfası</h2>
+
+
+<form method="post">
+    <label>İçerik başlığı</label>
+    <input type="text" class="table table-bordered" name="AboutTitle" />
+    <br />
+    <label>İçerik Açıklaması</label>
+    <textarea rows="4" class="table table-bordered" name="AboutDescription"></textarea>
+<br />
+    <label>İçerik Resim Yolu</label>
+    <input type="text" class="table table-bordered" name="AboutİmgUrl" />
+
+    <button class="btn btn-info">İçerik Kaydet</button>
+</form>
+

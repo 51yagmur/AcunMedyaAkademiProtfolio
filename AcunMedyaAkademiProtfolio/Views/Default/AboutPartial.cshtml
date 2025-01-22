@@ -1,0 +1,25 @@
+﻿@model List<AcunMedyaAkademiProtfolio.Models.Tbl_About>
+<div id="about" class="section wb">
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div class="message-box">
+                        <h2>@item.AboutTitle</h2>
+                        <p>@item.AboutDescription</p>
+
+                        <a href="~/Templates/dominic-master/yağmuryılmazcv.pdf" class="sim-btn btn-hover-new" data-text="Download CV"><span>CV İNDİR</span></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="@item.AboutİmgUrl" alt="" class="img-fluid img-rounded">
+                    </div>
+                </div>
+            </div>}
+        </div>
+</div>
