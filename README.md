@@ -34,4 +34,3 @@ zaman içince güncellemelerde gerçekleşecektir
 
 ![Image](https://github.com/user-attachments/assets/f2adb7aa-e5bf-4ebc-aeae-a8d135adc042)
 
-**Bu süreçte yanımda olan ve beni destekleyen  Münire Çelikbilek'e, Murat Yücedağ'a ve Acunmedya Akademi ekibine teşekkür ederim.**
